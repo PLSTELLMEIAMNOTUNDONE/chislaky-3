@@ -48,12 +48,5 @@ public class Func {
 
     }
 
-    public static void main(String[] args) {
-        KvPolynom p = new KvPolynom();
-        Func f = new Func(p);
-
-        System.out.println(f.root( 1,2,Math.pow(10,-9)));
-
-
-    }
+   
 }
